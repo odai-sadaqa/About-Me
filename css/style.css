@@ -7,7 +7,7 @@ h1{
 div{
     background-color: azure;
 }
-h2{
+h2, h3{
     font-size: 55px;
     margin: 20px;
    padding: 20px;
@@ -25,10 +25,44 @@ p{
     margin: 10px;
     font-size: 40px;
     background-color: darkviolet;
+    text-align: center;
 }
 li{
     font-size: 30px;
     padding: 20px;
     margin: 10px;
     background-color: dimgray;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#center{
+    text-align: center;
+}
+.Experience {
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+.Experience ul li{
+    background-color: rgb(192, 52, 52);
+    list-style-type:circle;
+    list-style-position: inside;
+}
+
+.Topten{
+background-color: black;
+color: blanchedalmond;
+}
+/* .Topten ol{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    color: rgb(170, 21, 21);
+} */
+
+.Topten ol li{
+    background-color: cornsilk;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    color: rgb(170, 21, 21);
+    /* color: black; */
 }
