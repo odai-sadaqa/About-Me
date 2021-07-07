@@ -10,12 +10,12 @@ while (!userName) {
 let welcome = alert('hello  ' + userName + ' lets play a gussing game');
 let score = 0;
 question1();
-// question2();
-// question3();
-// question4();
-// question5();
-// question6();
-// question7();
+question2();
+question3();
+question4();
+question5();
+question6();
+question7();
 
 function question1(){
   let qus1 = prompt('Do you think i\'m a programmer ?');
@@ -150,7 +150,6 @@ let flag= false;
 // bestClub = bestClub.toLowerCase();
 for (let j = 0; j < 6; j++) {
   qus7 = prompt('which the best club in the world?');
-
 
 }
 for (let i = 0; i < bestClub.length; i++) {
