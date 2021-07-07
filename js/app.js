@@ -142,32 +142,32 @@ function question6(){
       }
 }
 
-// function question7(){
-//     let qus7 = '';
-// let bestClub = ['RealMadrid', 'Barcelona', 'Mancity', 'BayrnMunch', 'parisSanGerman', 'Liverpol'];
-// // //console.log(bestClub.length);
-// let flag= false;
-// // bestClub = bestClub.toLowerCase();
-// for (let j = 0; j < 6; j++) {
-//   qus7 = prompt('which the best club in the world?');
+function question7(){
+    let qus7 = '';
+let bestClub = ['RealMadrid', 'Barcelona', 'Mancity', 'BayrnMunch', 'parisSanGerman', 'Liverpol'];
+// //console.log(bestClub.length);
+let flag= false;
+// bestClub = bestClub.toLowerCase();
+for (let j = 0; j < 6; j++) {
+  qus7 = prompt('which the best club in the world?');
 
 
-// }
-// for (let i = 0; i < bestClub.length; i++) {
-//   let j = bestClub[0];
-//   for (j = 0; j < 6; j++) {
-//     console.log(bestClub[1]);
-//   }
-//   if (bestClub[i] === qus7) {
-//     alert('you good');
-//     flag =true;
+}
+for (let i = 0; i < bestClub.length; i++) {
+  let j = bestClub[0];
+  for (j = 0; j < 6; j++) {
+    console.log(bestClub[1]);
+  }
+  if (bestClub[i] === qus7) {
+    alert('you good');
+    flag =true;
 
-//   }
-//   if (flag===true){
-//     break;
-//   }
-// }
-// }
+  }
+  if (flag===true){
+    break;
+  }
+}
+}
 
 
 alert('the answer must be one of them RealMadrid Barcelona, Mancity, BayrnMunch, parisSanGerma, Liverpol');
