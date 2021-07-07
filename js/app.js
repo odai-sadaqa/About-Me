@@ -37,25 +37,25 @@ function question1(){
   }
 }
 
-// function question2(){
-//     let qus2 = prompt('Do you think i love video game ?');
-// qus2 = qus2.toLowerCase();
+function question2(){
+    let qus2 = prompt('Do you think i love video game ?');
+qus2 = qus2.toLowerCase();
 
 
-// if (qus2 === 'yes' || qus2 === 'y') {
-//   alert('great, you are a correct');
-//   //console.log('great, you are a correct');
-//   score++;
-// }
-// else if (qus2 === 'no' || qus2 === 'n') {
-//   alert('ooops, sorry this is incorrect');
-//   //console.log ('ooops, sorry this is incorrect');
-// }
-// else {
-//   alert('please enter (yes or no)');
-//   //console.log (' please enter (yes or no) incorrect');
-// }
-// }
+if (qus2 === 'yes' || qus2 === 'y') {
+  alert('great, you are a correct');
+  //console.log('great, you are a correct');
+  score++;
+}
+else if (qus2 === 'no' || qus2 === 'n') {
+  alert('ooops, sorry this is incorrect');
+  //console.log ('ooops, sorry this is incorrect');
+}
+else {
+  alert('please enter (yes or no)');
+  //console.log (' please enter (yes or no) incorrect');
+}
+}
 
 
 // function question3(){
