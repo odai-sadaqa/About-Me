@@ -115,32 +115,32 @@ else {
 }
 }
 
-// function question6(){
-//     for (let gussCount = 1; gussCount <= 4; gussCount++) {
+function question6(){
+    for (let gussCount = 1; gussCount <= 4; gussCount++) {
 
-//         let qus6 = prompt(' Guss a number between 1 and 50');
-//         let guss = 30;
+        let qus6 = prompt(' Guss a number between 1 and 50');
+        let guss = 30;
       
-//         if (qus6 == guss) {
-//           alert('you are cleaver it is right answer');
-//           // console.log("you are cleaver it is right answer");
-//           score++;
-//           break;
+        if (qus6 == guss) {
+          alert('you are cleaver it is right answer');
+          // console.log("you are cleaver it is right answer");
+          score++;
+          break;
       
-//         }
-//         else if (qus6 > guss) {
-//           alert('it is incorrect it high');
-//           // console.log("it is incorrect it high");
-//         }
-//         else if (qus6 < guss) {
-//           alert('incorrect ,it is low number ');
-//           // console.log("incorrect ,it is low number");
-//         }
-//         else {
-//           alert('sorry you are faild');
-//         }
-//       }
-// }
+        }
+        else if (qus6 > guss) {
+          alert('it is incorrect it high');
+          // console.log("it is incorrect it high");
+        }
+        else if (qus6 < guss) {
+          alert('incorrect ,it is low number ');
+          // console.log("incorrect ,it is low number");
+        }
+        else {
+          alert('sorry you are faild');
+        }
+      }
+}
 
 // function question7(){
 //     let qus7 = '';
