@@ -6,7 +6,7 @@ while (!userName) {
 }
 
 let welcome = alert('hello  ' + userName + " lets play a gussing game");
- let score = 0;
+let score = 0;
 
 let qus1 = prompt("Do you think i'm a programmer ?");
 qus1 = qus1.toLowerCase();
@@ -95,21 +95,21 @@ else {
     //console.log (' please enter (yes or no) incorrect');
 }
 
-let qus6 = prompt(" Guss a number between 1 and 50");
-let guss = 30;
-let gussCount = 1;
+// let qus6 = prompt(" Guss a number between 1 and 50");
+// let guss = 30;
+// let gussCount = 1;
 
 for (let gussCount = 1; gussCount <= 4; gussCount++) {
-    
-    // let qus6 = prompt(" Guss a number between 1 and 50");
-    // let guss = 30;
-    
+
+    let qus6 = prompt(" Guss a number between 1 and 50");
+    let guss = 30;
+
     if (qus6 == guss) {
         alert("you are cleaver it is right answer");
         // console.log("you are cleaver it is right answer");
         score++;
         break;
-        
+
     }
     else if (qus6 > guss) {
         alert("it is incorrect it high");
@@ -120,17 +120,25 @@ for (let gussCount = 1; gussCount <= 4; gussCount++) {
         // console.log("incorrect ,it is low number");
     }
     else {
-        alert("sorry you are faild");  
+        alert("sorry you are faild");
     }
 }
 
-// let qus7= prompt("which the best club in the world?");
-// let bestClub = ['RealMadrid', 'Barcelona', 'Mancity', 'BayrnMunch', 'parisSanGerman','Liverpol'];
+let qus7 = prompt("which the best club in the world?");
+let bestClub = ['RealMadrid', 'Barcelona', 'Mancity', 'BayrnMunch', 'parisSanGerman', 'Liverpol'];
 // //console.log(bestClub.length);
 
+// bestClub = bestClub.toLowerCase();
 
-//  for (let i = 0; i < array.length; index++) {
-//   const element = array[index];
+// for (let i = 0; i < bestClub.length; i++) {
+//    let j = bestClub[0] 
+//     for( j=0; j<6; j++){
+// alert("fnjkfjsk");
 //     }
+    // if (qus7 == bestClub) {
+    //     alert("you good");
+    // }
+// }
+alert('the answer must be one of them RealMadrid Barcelona, Mancity, BayrnMunch, parisSanGerma, Liverpol');
 alert(`you have a score of ${score} /7`);
 alert('thank you for playing ' + userName);
