@@ -58,24 +58,24 @@ else {
 }
 
 
-// function question3(){
-//     let qus3 = prompt('Do you think i love a socer ?');
-// qus3 = qus3.toLowerCase();
+function question3(){
+    let qus3 = prompt('Do you think i love a socer ?');
+qus3 = qus3.toLowerCase();
 
-// if (qus3 === 'yes' || qus3 === 'y') {
-//   alert('great, you are a correct');
-//   //console.log('great, you are a correct');
-//   score++;
-// }
-// else if (qus3 === 'no' || qus3 === 'n') {
-//   alert('ooops, sorry this is incorrect');
-//   //console.log ('ooops, sorry this is incorrect');
-// }
-// else {
-//   alert('please enter (yes or no)');
-//   //console.log (' please enter (yes or no) incorrect');
-// }
-// }
+if (qus3 === 'yes' || qus3 === 'y') {
+  alert('great, you are a correct');
+  //console.log('great, you are a correct');
+  score++;
+}
+else if (qus3 === 'no' || qus3 === 'n') {
+  alert('ooops, sorry this is incorrect');
+  //console.log ('ooops, sorry this is incorrect');
+}
+else {
+  alert('please enter (yes or no)');
+  //console.log (' please enter (yes or no) incorrect');
+}
+}
 
 // function question4(){
 //     let qus4 = prompt('Do you think i love to traviling ?');
