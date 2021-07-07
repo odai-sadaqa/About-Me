@@ -97,23 +97,23 @@ else {
 }
 }
 
-// function question5(){
-//     let qus5 = prompt('Do you think i love a car ?');
-// qus5 = qus5.toLowerCase();
-// if (qus5 === 'yes' || qus5 === 'y') {
-//   alert('ooops, sorry this is incorrect');
-//   //console.log('ooops, sorry this is incorrect' );
-// }
-// else if (qus5 === 'no' || qus5 === 'n') {
-//   alert('great, you are a correct');
-//   //console.log ('great, you are a correct');
-//   score++;
-// }
-// else {
-//   alert('please enter (yes or no)');
-//   //console.log (' please enter (yes or no) incorrect');
-// }
-// }
+function question5(){
+    let qus5 = prompt('Do you think i love a car ?');
+qus5 = qus5.toLowerCase();
+if (qus5 === 'yes' || qus5 === 'y') {
+  alert('ooops, sorry this is incorrect');
+  //console.log('ooops, sorry this is incorrect' );
+}
+else if (qus5 === 'no' || qus5 === 'n') {
+  alert('great, you are a correct');
+  //console.log ('great, you are a correct');
+  score++;
+}
+else {
+  alert('please enter (yes or no)');
+  //console.log (' please enter (yes or no) incorrect');
+}
+}
 
 // function question6(){
 //     for (let gussCount = 1; gussCount <= 4; gussCount++) {
