@@ -124,21 +124,31 @@ for (let gussCount = 1; gussCount <= 4; gussCount++) {
     }
 }
 
-let qus7 = prompt("which the best club in the world?");
+let qus7 = "";
 let bestClub = ['RealMadrid', 'Barcelona', 'Mancity', 'BayrnMunch', 'parisSanGerman', 'Liverpol'];
 // //console.log(bestClub.length);
-
+let flag= false;
 // bestClub = bestClub.toLowerCase();
+ for (let j = 0; j < 6; j++) {
+     qus7 = prompt("which the best club in the world?");
 
-// for (let i = 0; i < bestClub.length; i++) {
-//    let j = bestClub[0] 
-//     for( j=0; j<6; j++){
-// alert("fnjkfjsk");
-//     }
-    // if (qus7 == bestClub) {
-    //     alert("you good");
-    // }
-// }
+
+}
+for (let i = 0; i < bestClub.length; i++) {
+    let j = bestClub[0]
+    for (j = 0; j < 6; j++) {
+        console.log(bestClub[1]);
+    }
+    if (bestClub[i] === qus7) {
+        alert("you good");
+        flag =true;
+    
+    }
+    if (flag===true){
+        break;
+    }
+}
+
 alert('the answer must be one of them RealMadrid Barcelona, Mancity, BayrnMunch, parisSanGerma, Liverpol');
 alert(`you have a score of ${score} /7`);
 alert('thank you for playing ' + userName);
