@@ -19,6 +19,7 @@ p{
     padding: 20px;
     margin: 10px;
     text-shadow: cornflowerblue;
+    font-family: 'Uchen', serif;
 }
 #education{
     padding: 20px;
@@ -26,6 +27,8 @@ p{
     font-size: 40px;
     background-color: darkviolet;
     text-align: center;
+    font-family: 'Uchen', serif;
+font-family: 'Zen Tokyo Zoo', cursive;
 }
 li{
     font-size: 30px;
@@ -47,6 +50,9 @@ li{
     background-color: rgb(192, 52, 52);
     list-style-type:circle;
     list-style-position: inside;
+    font-family: 'Festive', cursive;
+    font-family: 'Uchen', serif;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 .Topten{
@@ -65,4 +71,7 @@ color: blanchedalmond;
     list-style-position: inside;
     color: rgb(170, 21, 21);
     /* color: black; */
+    font-family: 'Festive', cursive;
+font-family: 'Uchen', serif;
+font-family: 'Zen Tokyo Zoo', cursive;
 }
